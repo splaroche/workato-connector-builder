@@ -6,7 +6,6 @@ require_relative '../fix_newlines_rewriter'
 
 require 'parser/ruby24'
 require 'rubocop-ast'
-require 'unparser'
 
 module WorkatoConnectorBuilder
   module CLI
