@@ -4,7 +4,7 @@ require_relative '../constants'
 require_relative '../validator'
 require_relative '../fix_newlines_rewriter'
 
-require 'parser/ruby24'
+require 'parser/ruby27'
 require 'rubocop-ast'
 
 module WorkatoConnectorBuilder
@@ -59,7 +59,7 @@ module WorkatoConnectorBuilder
 
       def create_parser
         builder = RuboCop::AST::Builder.new
-        Parser::Ruby24.new builder
+        Parser::Ruby27.new builder
       end
 
       def create_buffer(file_name, source)
