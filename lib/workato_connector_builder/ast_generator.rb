@@ -41,7 +41,7 @@ module WorkatoConnectorBuilder
         if f.start_with?('.')
           next
         elsif File.directory?(absolute_path)
-          asts.merge! self.walk(path)
+          asts.concat self.walk(path)
         elsif f.end_with?('.rb') and !f.start_with?('.')
           ps = RuboCop::AST::ProcessedSource.from_file(path, 2.4)
           comments = ps.ast_with_comments
