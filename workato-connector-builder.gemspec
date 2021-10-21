@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['bin/*', 'lib/**/*.rb', 'workato-connector-builder.gemspec', 'LICENSE']
   spec.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.bindir = 'bin'
   spec.require_paths = [ 'lib' ]
   spec.metadata = { 'issue_tracker' => 'https://www.github.com/johndoe/missing/issues' }
 
