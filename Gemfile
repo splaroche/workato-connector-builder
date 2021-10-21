@@ -7,7 +7,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'rubocop-ast'
 gem 'thor'
 
-group :test, :development do
+group :development do
   gem "pry-byebug"
   gem "rbs"
 end
