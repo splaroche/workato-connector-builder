@@ -8,7 +8,6 @@ gem 'rubocop-ast'
 gem 'thor'
 
 group :development do
-  gem "pry-byebug"
   gem "rbs"
 end
 
