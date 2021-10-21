@@ -21,7 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rubocop-ast', '~> 1.12'
   spec.add_runtime_dependency 'thor', '~> 1.1'
 
-  spec.add_development_dependency 'pry-byebug', '~> 3.9'
   spec.add_development_dependency 'rbs', '~> 1.6'
   spec.add_development_dependency 'rspec', '~> 3.10'
 end
