@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.bindir = 'bin'
   spec.require_paths = [ 'lib' ]
-  spec.metadata = { 'issue_tracker' => 'https://www.github.com/johndoe/missing/issues' }
+  spec.metadata = { 'issue_tracker' => 'https://www.github.com/splaroche/workato-connector-builder/issues' }
 
 
   spec.required_ruby_version= '>= 2.0.0'
