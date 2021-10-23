@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.description = 'A tool for building Workato Connectors from multiple hash files'
   spec.summary = spec.description
   spec.authors = [ 'Steven Laroche', ]
-  spec.version = '0.0.1.pre'
+  spec.version = '0.0.3.pre'
   spec.license = 'MIT'
 
   spec.files = Dir['bin/*', 'lib/**/*.rb', 'workato-connector-builder.gemspec', 'LICENSE']
